@@ -3,10 +3,14 @@
 
 /*GLOBAL STYLES*/
 
+body {
+  position: relative;
+}
 
 /*HEADER STYLES*/
+
 .navbar {
-  background-color: transparent;
+  background-color: #000000;
   border: none;
 }
 
@@ -20,5 +24,17 @@
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: #f8512f;
+  color: #cc00ff;
+}
+
+/*INTRO STYLES*/
+
+#intro-shadow {
+  box-shadow: 15px 15px 3px 0px #ff0066;
+}
+
+/*PORTFOLIO STYLES*/
+
+#portfolio-shadow {
+  box-shadow: 15px 15px 3px 0px #990099;
 }
