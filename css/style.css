@@ -1,0 +1,67 @@
+/*FONTS*/
+
+
+/*GLOBAL STYLES*/
+
+body {
+  position: relative;
+}
+
+/*HEADER STYLES*/
+
+.navbar {
+  background-color: #000000;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, .45);
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #cc00ff;
+}
+
+/*INTRO STYLES*/
+
+#intro-shadow {
+  box-shadow: 15px 15px 3px 0px #ff0066;
+  margin-bottom: 30px;
+}
+
+/*PORTFOLIO STYLES*/
+
+#portfolio-shadow {
+  box-shadow: -15px 15px 3px 0px #990099;
+  margin-bottom: 30px;
+}
+
+.container#portfolio-shadow>.row>.col-sm-12>.row>.col-sm-3 {
+  height: 250px;
+  width: 250px;
+  margin: 20px;
+}
+
+#geekwise {
+  background-color: #7A1600;
+  color: #F9DA0C;
+  padding: 50px 10px;
+}
+
+#nanny {
+  background-image: url('../img/kid-room.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+/*FOOTER STYLES*/
+
+footer {
+  background-color: #000000;
+  margin-top: 15px;
+}
