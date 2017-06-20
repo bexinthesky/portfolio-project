@@ -7,6 +7,10 @@ body {
   position: relative;
 }
 
+#col-absolute {
+  position: absolute;
+}
+
 /*HEADER STYLES*/
 
 .navbar {
@@ -58,6 +62,11 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+/*GEEKWISE PAGE*/
+
+/*NANNY PAGE*/
+
 
 /*FOOTER STYLES*/
 
