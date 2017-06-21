@@ -7,8 +7,18 @@ body {
   position: relative;
 }
 
-#col-absolute {
+.col-absolute {
   position: absolute;
+}
+
+.job-title {
+  padding: 10% 10% 15% 15%;
+  font-size: 5em;
+}
+
+.job-info-text {
+  font-size: 1.1em;
+  color: #000000;
 }
 
 /*HEADER STYLES*/
@@ -71,6 +81,31 @@ body {
 
 /*NANNY PAGE*/
 
+#nanny-col {
+  box-shadow: 20px 20px 35px 0px #0000cc;
+  height: 82%;
+}
+
+.nanny-info {
+  margin: 20px 35px;
+  background-attachment: fixed;
+}
+
+#nanny-quote {
+  color: #8080ff;
+}
+
+h3.text-justify.quote {
+  margin-top: 0px;
+}
+
+.quote {
+  color: #666666;
+}
+
+.nanny-img {
+  padding: 30px 0px 30px 70px;
+}
 
 /*FOOTER STYLES*/
 
