@@ -21,6 +21,10 @@ body {
   color: #000000;
 }
 
+.text-shadow {
+  text-shadow: 1px 1px #000;
+}
+
 /*HEADER STYLES*/
 
 .navbar {
@@ -66,6 +70,7 @@ body {
   color: #F9DA0C;
   padding: 70px 20px;
 }
+
 .awesome-padding {
   padding-top: 20px;
 }
@@ -78,6 +83,21 @@ body {
 
 .nanny-title {
   padding: 75px 20px 0 0;
+}
+
+#assistant {
+  background-image: url('../img/desk.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 85px 20px 85px 40px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+#intern {
+  background-color: #0C6536;
+  color: #ffffff;
+  padding: 70px 20px;
 }
 
 /*GEEKWISE PAGE*/
