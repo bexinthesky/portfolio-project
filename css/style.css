@@ -7,6 +7,24 @@ body {
   position: relative;
 }
 
+.col-absolute {
+  position: absolute;
+}
+
+.job-title {
+  padding: 10% 10% 15% 15%;
+  font-size: 5em;
+}
+
+.job-info-text {
+  font-size: 1.1em;
+  color: #000000;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px #000;
+}
+
 /*HEADER STYLES*/
 
 .navbar {
@@ -41,16 +59,20 @@ body {
   margin-bottom: 30px;
 }
 
-.container#portfolio-shadow>.row>.col-sm-12>.row>.col-sm-3 {
-  height: 250px;
-  width: 250px;
+.container#portfolio-shadow>.row>.col-sm-12>.row>.col-sm-4 {
+  height: 350px;
+  width: 350px;
   margin: 20px;
 }
 
 #geekwise {
   background-color: #7A1600;
   color: #F9DA0C;
-  padding: 50px 10px;
+  padding: 70px 20px;
+}
+
+.awesome-padding {
+  padding-top: 20px;
 }
 
 #nanny {
@@ -58,6 +80,126 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+.nanny-title {
+  padding: 75px 20px 0 0;
+}
+
+#assistant {
+  background-image: url('../img/desk.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 85px 20px 85px 40px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+#intern {
+  background-color: #0C6536;
+  color: #ffffff;
+  padding: 70px 20px;
+}
+
+/*GEEKWISE PAGE*/
+
+.gw-title {
+  color: #7A1600;
+  height: 200px;
+  width: 600px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.col-sm-12.gw-title.text-center>h2 {
+  font-size: 4em;
+}
+
+.gw-info {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 200px;
+  width: 600px;
+}
+
+.gw-classes {
+  height: 100px;
+  width: 600px;
+}
+
+.gw-list {
+  list-style: circle;
+}
+
+.gw-img {
+  width: 70%;
+  height: 300px;
+  padding: 10px;
+}
+
+/*NANNY PAGE*/
+
+#nanny-col {
+  box-shadow: 20px 20px 35px 0px #0000cc;
+  height: 82%;
+}
+
+.nanny-info {
+  margin: 20px 35px;
+  background-attachment: fixed;
+}
+
+#nanny-quote {
+  color: #8080ff;
+}
+
+h3.text-justify.quote {
+  margin-top: 0px;
+}
+
+.quote {
+  color: #666666;
+}
+
+.nanny-img {
+  padding: 30px 0px 30px 70px;
+}
+
+/*OFFICE ASSISTANT PAGE*/
+
+.assistant-info {
+  margin: 20px 35px;
+  background-attachment: fixed;
+}
+
+.assistant-img {
+  padding: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#assistant-col {
+  box-shadow: -20px 20px 35px 0px #669999;
+  height: 82%;
+  position: absolute;
+  z-index: -1;
+  right: 0px;
+}
+
+#assistant-quote {
+  color: #334d4d;
+  padding-top: 30px;
+}
+
+/*INTERN PAGE*/
+
+/*GUARDIAN PAGE*/
+
+/*UCSD PAGE*/
+
+/*ABOUT ME*/
+
+/*CONTACT*/
 
 /*FOOTER STYLES*/
 
