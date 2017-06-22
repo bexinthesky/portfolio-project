@@ -45,11 +45,23 @@ body {
   color: #cc00ff;
 }
 
+#logo {
+  color: #cc00ff;
+}
+
 /*INTRO STYLES*/
 
 .intro-shadow {
   box-shadow: 15px 15px 3px 0px #ff0066;
   margin-bottom: 30px;
+}
+
+.name {
+  padding-top: 60px;
+}
+
+.about-me {
+  margin-top: 20px;
 }
 
 /*PORTFOLIO STYLES*/
@@ -59,7 +71,7 @@ body {
   margin-bottom: 30px;
 }
 
-.container#portfolio-shadow>.row>.col-sm-12>.row>.col-sm-4 {
+.container.portfolio-shadow>.row>.col-sm-12>.row>.col-sm-4 {
   height: 350px;
   width: 350px;
   margin: 20px;
@@ -235,4 +247,5 @@ h3.text-justify.quote {
 footer {
   background-color: #000000;
   margin-top: 15px;
+  padding: 20px;
 }
