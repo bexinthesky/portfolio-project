@@ -193,6 +193,12 @@ h3.text-justify.quote {
 
 /*INTERN PAGE*/
 
+#intern-col {
+  box-shadow: 20px 20px 35px 0px #0C6536;
+  height: 82%;
+}
+
+
 /*GUARDIAN PAGE*/
 
 /*UCSD PAGE*/
