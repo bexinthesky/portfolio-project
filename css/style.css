@@ -47,14 +47,14 @@ body {
 
 /*INTRO STYLES*/
 
-#intro-shadow {
+.intro-shadow {
   box-shadow: 15px 15px 3px 0px #ff0066;
   margin-bottom: 30px;
 }
 
 /*PORTFOLIO STYLES*/
 
-#portfolio-shadow {
+.portfolio-shadow {
   box-shadow: -15px 15px 3px 0px #990099;
   margin-bottom: 30px;
 }
