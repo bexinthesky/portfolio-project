@@ -29,6 +29,10 @@ body {
   text-shadow: 1px 1px #000;
 }
 
+.warning-btn {
+  background-color: #ff0066;
+}
+
 /*HEADER STYLES*/
 
 .navbar {
@@ -50,7 +54,7 @@ body {
 }
 
 #logo {
-  color: #cc00ff;
+  color: #ff0066;
 }
 
 /*INTRO STYLES*/
