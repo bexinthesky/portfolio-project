@@ -116,11 +116,9 @@ body {
 }
 
 #intern {
-  background-image: url('../img/logosmall.png');
-  background-size: 50% 50%;
-  color: #fff;
-  padding: 120px 20px 0px 20px;
-  text-shadow: 2px 2px #000;
+  background-color: #0C6536;
+  color: #ffffff;
+  padding: 70px 20px;
 }
 
 #newspaper {
