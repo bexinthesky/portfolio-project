@@ -9,88 +9,134 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body data-spy="scroll">
   <!-- Main Content Goes Here -->
   <!-- Header and Navbar Begin -->
   <header class="container-fluid">
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img src="" alt="Logo" class="img-responsive" id="logo"></a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#home">Home</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-  </header>
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="index.html" id="logo">Rebecca Horwitz</a>
+		    </div>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="active"><a href="#home">Home</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</header>
   <!-- Header and Navbar End -->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-4 col-absolute text-center" id="intern-col">
+      <div class="col-sm-4 col-absolute text-center" id="intern-col"> <!-- Job Title Begins -->
         <h1 class="job-title">Marketing Intern</h2>
         <h4>Fresno Filmworks<br>
             May 2014 – September 2014<br>
             Fresno, CA
         </h4>
-      </div>
-      <div class="col-sm-7 col-sm-offset-1 pull-right center-block intern-info">
+      </div> <!-- Job Title Ends -->
+      <div class="col-sm-7 col-sm-offset-1 pull-right center-block intern-info"> <!-- Job Description Begins -->
         <div class="row">
-          <div class="col-sm-12">
-            <h3 id="nanny-quote">"She was an outstanding nanny for our children: responsible and competent; providing a nurturing presence; and epitomizing flexibility and a positive 'can-do' attitude."</h3>
-            <h3 class="text-justify quote">-Samya Burney</h3>
-          </div>
-          <div class="col-sm-12">
-            <img src="img/kid-crayons.jpg" alt="Kid with Crayons" class="img-responsive intern-img">
-          </div>
-          <div class="col-sm-12 job-info-text">
-            <p>I took care of the (then) 7-year-old son of two high-powered attorneys for two years afterschool on weekdays.</p>
+          <div class="col-sm-12 job-info-text"> <!-- Job Info Begins -->
+            <p>I was the summer marketing intern for Fresno Filmworks, a local organization that shows independent films that aren't shown in Fresno theaters. I helped write film synopses and create promotional materials for the organization's monthly film screenings. I assisted the Fresno Filmworks President with brainstorming activities for screenings, researching the upcoming films for blog posts and advertisments, and any organizational tasks that needed to be done.</p>
             <ul>
-              <li>Prepared food and activities.</li>
-              <li>Assisted with homework, music practice, and chores.</li>
-              <li>Managed child's schedule and overall well-being.</li>
-              <li>Handled all transportation from school, from camp, and to activites; occasionally gave rides to older teenage brothers.</li>
+              <li>•	Compiled research and produced content for website and social media.</li>
+              <li>Developed, pitched, wrote, and produced story ideas for advertising on flyers, radio, local news stations.</li>
+              <li>Made promotional videos.</li>
+              <li>Assisted with and created activities for events.</li>
             </ul>
+          </div> <!-- Job Info Ends -->
+          <!-- Carousel Begins --> <!-- Project 1 Begins -->
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+        	  <ol class="carousel-indicators">
+        	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        	  </ol>
+        	  <!-- Wrapper for slides -->
+        	  <div class="carousel-inner" role="listbox" id="home">
+        	    <div class="item active" id="wood-background"> <!-- First Slide -->
+        	      <img src="img/logo-01.png" alt="Carousel Logo" class="img-responsive center-block" id="restaurante-img">
+        	    </div>
+        	    <div class="item" id="seating-background"> <!-- Second Slide -->
+        	      <div class="carousel-caption text-shadow">
+        	        <h2>Eat local.</h2>
+        	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus voluptatibus itaque officia laudantium dicta voluptate ipsum aspernatur, sapiente, repellat, nesciunt sequi, iste. Consequatur, tempore.</p>
+        					<button type="button" class="btn btn-warning btn-lg">Learn More</button>
+        	      </div>
+        	    </div>
+        			<div class="item" id="farm-background"> <!-- Third Slide -->
+        	      <div class="carousel-caption text-shadow">
+        	        <h2>From farm to table.</h2>
+        	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus voluptatibus itaque officia laudantium dicta voluptate ipsum aspernatur, sapiente, repellat, nesciunt sequi, iste. Consequatur, tempore.</p>
+        					<button type="button" class="btn btn-warning btn-lg">Browse Gallery</button>
+        	      </div>
+        	    </div>
+        	  </div>
+        	  <!-- Controls -->
+        	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        	    <span class="sr-only">Previous</span>
+        	  </a>
+        	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        	    <span class="sr-only">Next</span>
+        	  </a>
+        	</div>
+          <!-- Carousel Ends --> <!-- Project 1 Ends -->
+          <!-- Links to Blog Posts Begins -->
+          <div class="col-sm-4"></div>
+          <div class="col-sm-4"></div>
+          <div class="col-sm-4"></div>
+          <!-- Links to Blog Posts Ends -->
+          <!-- Promo Videos Begins -->
+          <div class="col-sm-12">
+            <h3>Life Itself Promo Video</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qqA62NlHCeo" frameborder="0" allowfullscreen></iframe>
           </div>
+          <div class="col-sm-12">
+            <h3>May In The Summer Promo Video</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QG47QJ27LGg" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <!-- Promo Videos Ends -->
         </div>
-      </div>
+      </div> <!-- Job Description Ends -->
     </div>
   </div>
-  <footer class="container-fluid center-block">
+  <footer class="container-fluid center-block text-center">
     <div class="row">
       <div class="col-sm-3">
-        <button type="button" class="btn btn-default">Contact</button>
+        <button type="button" class="btn btn-warning"><a href="contact.html"></a>Contact</button>
       </div>
       <div class="col-sm-5">
-        <a href="" class="social-media">
+        <a href="https://www.linkedin.com/in/rebecca-a-horwitz/" class="social-media">
           <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
         </a>
-        <a href="" class="social-media">
+        <a href="https://github.com/bexinthesky" class="social-media">
           <i class="fa fa-github fa-2x" aria-hidden="true"></i>
         </a>
-        <a href="" class="social-media">
+        <a href="https://twitter.com/moonprismariel" class="social-media">
           <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
         </a>
       </div>
       <div class="col-sm-4">
-        <a class="navbar-brand" href="#"><img src="" alt="Logo" class="img-responsive" id="logo"></a>
+        <a class="navbar-brand" href="index.html" id="logo">Rebecca Horwitz</a>
       </div>
     </div>
   </footer>
-
   <!-- javascript	 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

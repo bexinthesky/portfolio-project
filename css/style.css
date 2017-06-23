@@ -137,6 +137,14 @@ body {
 
 /*GEEKWISE PAGE*/
 
+#gw-col-1 {
+  box-shadow: -20px 20px 35px 0px #F9DA0C;
+}
+
+#gw-col-2 {
+  box-shadow: 20px 20px 35px 0px #F9DA0C;
+}
+
 .gw-title {
   color: #7A1600;
   height: 200px;
@@ -248,4 +256,12 @@ footer {
   background-color: #000000;
   margin-top: 15px;
   padding: 20px;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 970px) {
+  .query-970 {
+    width: 95%;
+  }
 }
