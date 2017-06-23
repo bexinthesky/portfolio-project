@@ -21,6 +21,10 @@ body {
   color: #000000;
 }
 
+.white-text {
+  color: #fff;
+}
+
 .text-shadow {
   text-shadow: 1px 1px #000;
 }
@@ -245,6 +249,29 @@ h3.text-justify.quote {
   height: 82%;
 }
 
+.item {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+#drawing {
+  background-image: url('../img/double-1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#photobooth-1 {
+  background-image: url('../img/double2-1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#photobooth-2 {
+  background-image: url('../img/double3-1.jpg');
+  background-position: center;
+  background-size: cover;
+}
 
 /*GUARDIAN PAGE*/
 
