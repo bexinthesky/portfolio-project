@@ -139,10 +139,14 @@ body {
 
 #gw-col-1 {
   box-shadow: -20px 20px 35px 0px #F9DA0C;
+  height: 600px;
+  margin: 30px;
 }
 
 #gw-col-2 {
-  box-shadow: 20px 20px 35px 0px #F9DA0C;
+  box-shadow: 20px -20px 35px 0px #F9DA0C;
+  height: 82%;
+  margin: 30px;
 }
 
 .gw-title {
@@ -174,7 +178,7 @@ body {
 }
 
 .gw-img {
-  width: 70%;
+  width: 80%;
   height: 300px;
   padding: 10px;
 }
@@ -249,6 +253,15 @@ h3.text-justify.quote {
 /*ABOUT ME*/
 
 /*CONTACT*/
+
+#contact {
+  margin: 30px 40px;
+}
+
+.asterisk:after {
+  content: '*';
+  color: #ff0000;
+
 
 /*FOOTER STYLES*/
 
