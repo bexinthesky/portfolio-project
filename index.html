@@ -110,13 +110,13 @@
           </div>
           <div class="form-group">
             <label for="email" class="asterisk">Email</label>
-            <input type="text" class="form-control" id="email" placeholder="Your Email" required>
+            <input type="text" class="form-control" id="email" placeholder="Your Email" name="_replyto" required>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="form-group">
             <label for="subject" class="asterisk">Subject</label>
-            <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+            <input type="text" class="form-control" id="subject" placeholder="Subject" name="_subject" value="New submission!" required>
           </div>
           <label for="message" class="asterisk">Message</label>
           <textarea class="form-control" rows="3" placeholder="Your Message" id="message" required></textarea>
@@ -126,7 +126,7 @@
             I'm Not a Robot!
           </label> -->
           <div class="form-group">
-            <button type="submit" class="btn btn-default btn-lg" id="submitButton">Submit</button>
+            <button type="submit" class="btn btn-default btn-lg" id="submitButton" value="Send">Submit</button>
   				</div>
         </div>
       </form>
