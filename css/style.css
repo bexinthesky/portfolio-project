@@ -2,7 +2,6 @@
 
 
 /*GLOBAL STYLES*/
-
 body {
   position: relative;
 }
@@ -35,7 +34,6 @@ body {
 }
 
 /*HEADER STYLES*/
-
 .navbar {
   background-color: #000000;
   border: none;
@@ -59,7 +57,6 @@ body {
 }
 
 /*INTRO STYLES*/
-
 .intro-shadow {
   box-shadow: 15px 15px 3px 0px #ff0066;
   margin-bottom: 30px;
@@ -82,7 +79,6 @@ body {
 }
 
 /*PORTFOLIO STYLES*/
-
 .portfolio-shadow {
   box-shadow: -15px 15px 3px 0px #990099;
   margin-bottom: 30px;
@@ -156,7 +152,6 @@ body {
 }
 
 /*GEEKWISE PAGE*/
-
 #gw-col-1 {
   box-shadow: -20px 20px 35px 0px #F9DA0C;
   height: 600px;
@@ -204,10 +199,9 @@ body {
 }
 
 /*NANNY PAGE*/
-
 #nanny-col {
   box-shadow: 20px 20px 35px 0px #0000cc;
-  height: 82%;
+  height: 56%;
 }
 
 .nanny-info {
@@ -232,7 +226,6 @@ h3.text-justify.quote {
 }
 
 /*OFFICE ASSISTANT PAGE*/
-
 .assistant-info {
   margin: 20px 35px;
   background-attachment: fixed;
@@ -247,7 +240,7 @@ h3.text-justify.quote {
 
 #assistant-col {
   box-shadow: -20px 20px 35px 0px #669999;
-  height: 82%;
+  height: 56%%;
   position: absolute;
   z-index: -1;
   right: 0px;
@@ -259,7 +252,6 @@ h3.text-justify.quote {
 }
 
 /*INTERN PAGE*/
-
 #intern-col {
   box-shadow: 20px 20px 35px 0px #0C6536;
   height: 82%;
@@ -295,22 +287,26 @@ h3.text-justify.quote {
 
 /*ABOUT ME*/
 
-
-/*FOOTER STYLES*/
-
-footer {
-  background-color: #000000;
-  margin: 15px 0px 25px 0px;
-  padding: 20px;
-}
-
+/*CONTACT STYLES*/
 .contact-text {
-  color: #ffffff;
+  color: #000000;
 }
 
 .asterisk:after {
   content: '*';
   color: #ff0000;
+}
+
+/*FOOTER STYLES*/
+footer {
+  background-color: #000000;
+  margin: 40px 0px 25px 0px;
+  padding: 10px;
+}
+
+.social-media {
+
+}
 
 /*MEDIA QUERIES*/
 
