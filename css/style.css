@@ -67,10 +67,18 @@ body {
 
 .name {
   padding-top: 60px;
+  margin-top: 70px;
 }
 
 .about-me {
   margin-top: 20px;
+  margin-right: 80px;
+}
+
+#me-img {
+  height: 450px;
+  width: auto;
+  margin: 20px 0px 20px 60px;
 }
 
 /*PORTFOLIO STYLES*/
@@ -88,8 +96,8 @@ body {
 
 #geekwise {
   background-color: #7A1600;
-  color: #F9DA0C;
   padding: 70px 20px;
+  color: #F9DA0C;
 }
 
 .yellow {
@@ -287,29 +295,27 @@ h3.text-justify.quote {
 
 /*ABOUT ME*/
 
-/*CONTACT*/
 
-#contact {
-  margin: 30px 40px;
+/*FOOTER STYLES*/
+
+footer {
+  background-color: #000000;
+  margin: 15px 0px 25px 0px;
+  padding: 20px;
+}
+
+.contact-text {
+  color: #ffffff;
 }
 
 .asterisk:after {
   content: '*';
   color: #ff0000;
 
-
-/*FOOTER STYLES*/
-
-footer {
-  background-color: #000000;
-  margin-top: 15px;
-  padding: 20px;
-}
-
 /*MEDIA QUERIES*/
 
-@media screen and (min-width: 970px) {
+/*@media screen and (min-width: 970px) {
   .query-970 {
     width: 95%;
   }
-}
+}*/
