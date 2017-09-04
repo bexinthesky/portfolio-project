@@ -31,7 +31,7 @@
 		        <li class="active"><a href="index.html">Home</a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="about.html">About</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="#contact">Contact</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -69,24 +69,57 @@
       </div>
     </div>
   </div>
-  <footer class="container-fluid center-block text-center">
-    <div class="row">
-      <div class="col-sm-3">
-        <button type="button" class="btn btn-warning"><a href="contact.html"></a>Contact</button>
-      </div>
-      <div class="col-sm-5">
-        <a href="https://www.linkedin.com/in/rebecca-a-horwitz/" class="social-media">
-          <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-        </a>
-        <a href="https://github.com/bexinthesky" class="social-media">
-          <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-        </a>
-        <a href="https://twitter.com/moonprismariel" class="social-media">
-          <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-        </a>
-      </div>
-      <div class="col-sm-4">
-        <a class="navbar-brand" href="index.html" id="logo">Rebecca Horwitz</a>
+  <footer class="container-fluid center-block">
+    <div class="col-sm-12">
+      <!-- Contact Section Begins -->
+  		<div class="row" id="contact">
+  			<div class="col-sm-4 contact-text text-center">
+  				<h1 class="text-uppercase contact-text">Contact</h1>
+  				<p>If you have any questions, comments, or want to hire me, let me know!</p>
+  			</div>
+  		</div>
+      <!-- Contact Form Begins -->
+  		<div class="row">
+  			<div class="col-sm-4 contact-text">
+  				<form action="" class="contact-form">
+  					<div class="form-group">
+  				    <label for="name" class="asterisk">Name</label>
+  				    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+  				  </div>
+  				  <div class="form-group contact-text">
+  				    <label for="email" class="asterisk">Email</label>
+  				    <input type="text" class="form-control" id="email" placeholder="Your Email" required>
+  				  </div>
+  					<div class="form-group contact-text">
+  				    <label for="subject" class="asterisk">Subject</label>
+  				    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+  				  </div>
+  					<label for="message" class="asterisk">Message</label>
+  					<textarea class="form-control" rows="3" placeholder="Your Message" required></textarea>
+  					<label>
+  				    <input type="checkbox" value="">
+  				    I'm Not a Robot!
+  				  </label>
+  				</form>
+          <!-- Contact Form Ends -->
+  			</div>
+        <!-- Contact Section Ends -->
+        <!-- Social Media Section Begins -->
+        <div class="col-sm-4">
+          <a href="https://www.linkedin.com/in/rebecca-a-horwitz/" class="social-media">
+            <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/bexinthesky" class="social-media">
+            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+          <a href="https://twitter.com/moonprismariel" class="social-media">
+            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+          </a>
+        </div>
+        <!-- Social Media Section Ends -->
+        <div class="col-sm-4">
+          <a class="navbar-brand" href="index.html" id="logo">Rebecca Horwitz</a>
+        </div>
       </div>
     </div>
   </footer>
