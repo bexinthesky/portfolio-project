@@ -95,42 +95,44 @@
   <!-- Contact Section Begins -->
   <div class="container">
     <div class="row">
-      <div class="col-sm-4 col-sm-offset-4 text-center">
-        <h1 class="text-uppercase text-center">Contact</h1>
-        <p>If you have any questions, comments, or want to hire me, let me know!</p>
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1 class="text-uppercase">Contact</h1>
+            <p>If you have any questions, comments, or just want to chat, let me know!</p>
+          </div>
+        </div>
+        <!-- Contact Form Begins -->
+        <div class="row">
+          <form class="contact-form" id="emailForm" method="POST">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <div class="form-group">
+                  <label for="name" class="asterisk">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="asterisk">Email</label>
+                  <input type="text" class="form-control" id="email" placeholder="Your Email" name="_replyto" required>
+                </div>
+                <div class="form-group">
+                  <label for="subject" class="asterisk">Subject</label>
+                  <input type="text" class="form-control" id="subject" placeholder="Subject" name="_subject" required>
+                </div>
+                <label for="message" class="asterisk">Message</label>
+                <textarea class="form-control" rows="3" placeholder="Your Message" id="message" required></textarea>
+                <label>
+                  <input type="checkbox" value=""> I'm Not a Robot!
+                </label>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-default btn-lg" id="submitButton" value="Send">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- Contact Form Ends -->
       </div>
-    </div>
-    <!-- Contact Form Begins -->
-    <div class="row">
-      <form class="contact-form" id="emailForm" method="POST">
-        <div class="col-sm-6">
-          <div class="form-group">
-            <label for="name" class="asterisk">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-          </div>
-          <div class="form-group">
-            <label for="email" class="asterisk">Email</label>
-            <input type="text" class="form-control" id="email" placeholder="Your Email" name="_replyto" required>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="form-group">
-            <label for="subject" class="asterisk">Subject</label>
-            <input type="text" class="form-control" id="subject" placeholder="Subject" name="_subject" required>
-          </div>
-          <label for="message" class="asterisk">Message</label>
-          <textarea class="form-control" rows="3" placeholder="Your Message" id="message" required></textarea>
-          <!-- Need to configure properly
-          <label>
-            <input type="checkbox" value="">
-            I'm Not a Robot!
-          </label> -->
-          <div class="form-group">
-            <button type="submit" class="btn btn-default btn-lg" id="submitButton" value="Send">Submit</button>
-  				</div>
-        </div>
-      </form>
-      <!-- Contact Form Ends -->
     </div>
   </div>
   <!-- Contact Section Ends -->
@@ -160,37 +162,3 @@
   <script src="js/script.js"></script>
 </body>
 </html>
-
-
-<!-- Alternative Contact Form -->
-<!-- <div class="container">
-  <div class="row">
-    <div class="col-sm-4 col-sm-offset-4">
-      <h1 class="text-uppercase text-center">Contact</h1>
-      <p>If you have any questions, comments, or want to hire me, let me know!</p>
-      <form action="" class="contact-form">
-        <div class="form-group">
-          <label for="name" class="asterisk">Name</label>
-          <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-        </div>
-        <div class="form-group">
-          <label for="email" class="asterisk">Email</label>
-          <input type="text" class="form-control" id="email" placeholder="Your Email" required>
-        </div>
-        <div class="form-group">
-          <label for="subject" class="asterisk">Subject</label>
-          <input type="text" class="form-control" id="subject" placeholder="Subject" required>
-        </div>
-        <label for="message" class="asterisk">Message</label>
-        <textarea class="form-control" rows="3" placeholder="Your Message" required></textarea>
-        <label>
-          <input type="checkbox" value="">
-          I'm Not a Robot!
-        </label>
-        <div class="form-group">
-          <button type="submit" class="btn btn-default btn-lg">Submit</button>
-        </div>
-      </form>
-    </div>
-  </div>
-</div> -->
