@@ -90,10 +90,13 @@ body {
   margin: 20px;
 }
 
-#geekwise {
-  background-color: #7a1600;
-  padding: 70px 20px;
+#development {
+  background-image: url('../img/computer.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 60px 40px 60px 40px;
   color: #f9da0c;
+  text-shadow: 2px 2px #000;
 }
 
 .yellow {
@@ -152,21 +155,12 @@ body {
 }
 
 /*WEB DEVELOPMENT PAGE*/
-
 #dev-col {
   box-shadow: -20px 20px 35px 0px #f9da0c;
   height: 82%;
   position: absolute;
   z-index: -1;
   right: 0px;
-}
-
-.dev-title {
-  color: #7a1600;
-  height: 200px;
-  width: 600px;
-  margin-top: 20px;
-  margin-bottom: 10px;
 }
 
 
