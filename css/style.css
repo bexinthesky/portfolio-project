@@ -1,0 +1,320 @@
+/*FONTS*/
+
+
+/*GLOBAL STYLES*/
+body {
+  position: relative;
+}
+
+.col-absolute {
+  position: absolute;
+}
+
+.job-title {
+  padding: 10% 10% 15% 15%;
+  font-size: 5em;
+}
+
+.job-info-text {
+  font-size: 1.1em;
+  color: #000;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px #000;
+}
+
+.btn-warning {
+  background-color: #ff0066;
+  border-color: #ff0066;
+}
+
+/*HEADER STYLES*/
+.navbar {
+  background-color: #000;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .45);
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #cc00ff;
+}
+
+#logo {
+  color: #ff0066;
+}
+
+/*INTRO STYLES*/
+.intro-shadow {
+  box-shadow: 15px 15px 3px 0px #ff0066;
+  margin-bottom: 30px;
+}
+
+.name {
+  padding-top: 60px;
+  margin-top: 70px;
+}
+
+.about-me {
+  margin-top: 20px;
+  margin-right: 80px;
+}
+
+#me-img {
+  height: 450px;
+  width: auto;
+  margin: 20px 0px 20px 60px;
+}
+
+/*PORTFOLIO STYLES*/
+.portfolio-shadow {
+  box-shadow: -15px 15px 3px 0px #990099;
+  margin-bottom: 30px;
+}
+
+.container.portfolio-shadow>.row>.col-sm-12>.row>.col-sm-4 {
+  height: 350px;
+  width: 350px;
+  margin: 20px;
+}
+
+#geekwise {
+  background-color: #7a1600;
+  padding: 70px 20px;
+  color: #f9da0c;
+}
+
+.yellow {
+  color: #f9da0c;
+}
+
+.awesome-padding {
+  padding-top: 20px;
+}
+
+#nanny {
+  background-image: url('../img/kid-room.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.nanny-title {
+  padding: 75px 20px 0 0;
+  color: #000;
+}
+
+#assistant {
+  background-image: url('../img/desk.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 85px 20px 85px 40px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+#intern {
+  background-color: #0c6536;
+  color: #fff;
+  padding: 70px 20px;
+}
+
+#newspaper {
+  background-image: url('../img/guardian-1.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 70px 20px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+#ucsd {
+  background-image: url('../img/ucsd-1.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+.pad-tp {
+  padding-top: 70%;
+}
+
+/*GEEKWISE PAGE*/
+
+/*margin: 0 50px 0px 10px; margin for paragraph on right side*/
+
+#gw-col-1 {
+  box-shadow: -20px 20px 35px 0px #f9da0c;
+  height: 1000px;
+  margin: 30px;
+}
+
+#gw-col-2 {
+  box-shadow: 20px -20px 35px 0px #f9da0c;
+  height: 95%;
+  margin: 30px;
+}
+
+.gw-title {
+  color: #7a1600;
+  height: 200px;
+  width: 600px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.col-sm-12.gw-title.text-center>h2 {
+  font-size: 4em;
+}
+
+.gw-info {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 200px;
+  width: 600px;
+}
+
+.gw-classes {
+  height: 100px;
+  width: 600px;
+}
+
+.gw-list {
+  list-style: circle;
+}
+
+.gw-img {
+  width: 80%;
+  height: 300px;
+  padding: 10px;
+}
+
+/*NANNY PAGE*/
+#nanny-col {
+  box-shadow: 20px 20px 35px 0px #0000cc;
+  height: 82%;
+}
+
+.nanny-info {
+  margin: 20px 35px;
+  background-attachment: fixed;
+}
+
+#nanny-quote {
+  color: #8080ff;
+}
+
+h3.text-justify.quote {
+  margin-top: 0px;
+}
+
+.quote {
+  color: #666;
+}
+
+.nanny-img {
+  padding: 30px 0px 30px 70px;
+}
+
+/*OFFICE ASSISTANT PAGE*/
+.assistant-info {
+  margin: 20px 35px;
+  background-attachment: fixed;
+}
+
+.assistant-img {
+  padding: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#assistant-col {
+  box-shadow: -20px 20px 35px 0px #669999;
+  height: 82%;
+  position: absolute;
+  z-index: -1;
+  right: 0px;
+}
+
+#assistant-quote {
+  color: #334d4d;
+  padding-top: 30px;
+}
+
+/*INTERN PAGE*/
+#intern-col {
+  box-shadow: 20px 20px 35px 0px #0c6536;
+  height: 82%;
+}
+
+.item {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+#drawing {
+  background-image: url('../img/double-1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#photobooth-1 {
+  background-image: url('../img/double2-1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#photobooth-2 {
+  background-image: url('../img/double3-1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+/*GUARDIAN PAGE*/
+
+/*UCSD PAGE*/
+
+/*ABOUT ME*/
+
+/*CONTACT STYLES*/
+.asterisk:after {
+  content: '*';
+  color: #ff0000;
+}
+
+.contact-body {
+  padding: 10px;
+}
+
+/*FOOTER STYLES*/
+footer {
+  background-color: #000;
+  margin: 40px 0px 25px 0px;
+  padding: 10px;
+}
+
+.social-media {
+
+}
+
+/*MEDIA QUERIES*/
+
+/*@media screen and (min-width: 970px) {
+  .query-970 {
+    width: 95%;
+  }
+}*/

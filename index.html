@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rebecca Horwitz Portfolio</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-spy="scroll">
+  <!-- Main Content Goes Here -->
+  <!-- Header and Navbar Begin -->
+  <header class="container-fluid">
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <!-- <a class="navbar-brand" href="index.html" id="logo">Rebecca Horwitz</a> -->
+		    </div>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="active"><a href="index.html">Home</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="#contact">Contact</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</header>
+  <!-- Header and Navbar End -->
+  <!-- Intro Begins -->
+  <div class="container intro-shadow query-970">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-5">
+            <img src="img/me-4.jpg" alt="Me" class="img-responsive" id="me-img">
+          </div>
+          <div class="col-sm-6 col-sm-offset-1 name">
+            <h1>Rebecca Horwitz</h1>
+            <p class="about-me">I'm a 26-year-old with a B.A. in Theatre, a minor in Earth Science and a variety of work experiences. I'm currently pursuing web development. A few of my past jobs have been a newspaper reporter and editor, a nanny, a marketing intern, and an an office assistant for an attorney. Check out my work experience.</p>
+          </div>
+        </div> <!-- Intro Pic & My Name Ends -->
+      </div>
+    </div>
+  </div>
+  <!-- Intro Ends -->
+  <!-- Portfolio Begins -->
+  <div class="container portfolio-shadow" id="portfolio">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-4 text-center" id="geekwise">
+            <h2><a href="development.html" class="yellow">Web<br>Development</a></h2>
+            <i class="fa fa-hashtag fa-4x awesome-padding" aria-hidden="true"></i>
+            <i class="fa fa-laptop fa-4x" aria-hidden="true"></i>
+            <i class="fa fa-file-code-o fa-4x" aria-hidden="true"></i>
+          </div>
+          <div class="col-sm-4 text-center" id="nanny">
+            <h2 class="nanny-title"><a href="nanny.html">Part<br>Time<br>Nanny<br></a></h2>
+          </div>
+          <div class="col-sm-4 text-center" id="assistant">
+            <h2><a href="office.html" class="white-text">Office<br>Assistant</a></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 text-center" id="intern">
+            <h2 class="text-shadow"><a href="ff.html" class="white-text">Fresno Filmworks<br>Marketing Intern</a></h2>
+            <i class="fa fa-film fa-4x awesome-padding" aria-hidden="true"></i>
+            <i class="fa fa-video-camera fa-4x" aria-hidden="true"></i>
+            <i class="fa fa-camera-retro fa-4x" aria-hidden="true"></i>
+          </div>
+          <div class="col-sm-4 text-center" id="newspaper">
+            <h2>UCSD<br>The Guardian</h2>
+          </div>
+          <div class="col-sm-4 text-center" id="ucsd">
+            <h2>UC San Diego</h2>
+            <h2 class="pad-tp">Bachelor of Arts</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio Ends -->
+  <!-- Contact Section Begins -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-2">
+            <h1 class="text-uppercase">Contact</h1>
+            <h4>If you have any questions, comments, or just want to chat, let me know!</h4>
+          </div>
+        </div>
+        <!-- Contact Form Begins -->
+        <div class="row">
+          <form class="contact-form" id="emailForm" method="POST">
+            <!-- <div class="row"> -->
+              <div class="col-sm-8 col-sm-offset-2 contact-body">
+                <div class="form-group">
+                  <label for="name" class="asterisk">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="asterisk">Email</label>
+                  <input type="text" class="form-control" id="email" placeholder="Your Email" name="_replyto" required>
+                </div>
+                <div class="form-group">
+                  <label for="subject" class="asterisk">Subject</label>
+                  <input type="text" class="form-control" id="subject" placeholder="Subject" name="_subject" required>
+                </div>
+                <label for="message" class="asterisk">Message</label>
+                <textarea class="form-control" rows="3" placeholder="Your Message" id="message" required></textarea>
+                <label>
+                  <input type="checkbox" value=""> I'm Not a Robot!
+                </label>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-default btn-lg" id="submitButton" value="Send">Submit</button>
+                </div>
+              </div>
+            <!-- </div> -->
+          </form>
+        </div>
+        <!-- Contact Form Ends -->
+      </div>
+    </div>
+  </div>
+  <!-- Contact Section Ends -->
+  <footer class="container-fluid center-block">
+    <div class="row">
+      <!-- Social Media Section Begins -->
+      <div class="col-sm-4">
+        <a href="https://www.linkedin.com/in/rebecca-a-horwitz/" class="social-media">
+          <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/bexinthesky" class="social-media">
+          <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://twitter.com/moonprismariel" class="social-media">
+          <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+        </a>
+      </div>
+      <!-- Social Media Section Ends -->
+      <div class="col-sm-4">
+        <a class="navbar-brand" href="index.html" id="logo">Rebecca Horwitz</a>
+      </div>
+    </div>
+  </footer>
+  <!-- JavaScript	 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
