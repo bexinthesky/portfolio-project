@@ -151,23 +151,17 @@ body {
   padding-top: 70%;
 }
 
-/*GEEKWISE PAGE*/
+/*WEB DEVELOPMENT PAGE*/
 
-/*margin: 0 50px 0px 10px; margin for paragraph on right side*/
-
-#gw-col-1 {
+#dev-col {
   box-shadow: -20px 20px 35px 0px #f9da0c;
-  height: 1000px;
-  margin: 30px;
+  height: 82%;
+  position: absolute;
+  z-index: -1;
+  right: 0px;
 }
 
-#gw-col-2 {
-  box-shadow: 20px -20px 35px 0px #f9da0c;
-  height: 95%;
-  margin: 30px;
-}
-
-.gw-title {
+.dev-title {
   color: #7a1600;
   height: 200px;
   width: 600px;
@@ -175,31 +169,6 @@ body {
   margin-bottom: 10px;
 }
 
-.col-sm-12.gw-title.text-center>h2 {
-  font-size: 4em;
-}
-
-.gw-info {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  height: 200px;
-  width: 600px;
-}
-
-.gw-classes {
-  height: 100px;
-  width: 600px;
-}
-
-.gw-list {
-  list-style: circle;
-}
-
-.gw-img {
-  width: 80%;
-  height: 300px;
-  padding: 10px;
-}
 
 /*NANNY PAGE*/
 #nanny-col {
