@@ -291,13 +291,13 @@ h3.text-justify.quote {
 /*ABOUT ME*/
 
 /*CONTACT STYLES*/
-.contact-text {
-  color: #000;
-}
-
 .asterisk:after {
   content: '*';
   color: #ff0000;
+}
+
+.contact-body {
+  padding: 10px;
 }
 
 /*FOOTER STYLES*/
