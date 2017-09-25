@@ -223,6 +223,13 @@ h3.text-justify.quote {
   height: 82%;
 }
 
+#ff-me {
+  padding: 500px 10px 10px 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .item {
   height: 500px;
   background-position: center;
