@@ -163,7 +163,6 @@ body {
   right: 0px;
 }
 
-
 /*NANNY PAGE*/
 #nanny-col {
   box-shadow: 20px 20px 35px 0px #0000cc;
@@ -220,7 +219,7 @@ h3.text-justify.quote {
 /*INTERN PAGE*/
 #intern-col {
   box-shadow: 20px 20px 35px 0px #0c6536;
-  height: 82%;
+  height: 88%;
 }
 
 #ff-me {
@@ -230,8 +229,13 @@ h3.text-justify.quote {
   margin-right: auto;
 }
 
+#intern-quote {
+  color: #334d4d;
+  padding-top: 30px;
+}
+
 .item {
-  height: 450px;
+  height: 400px;
   background-position: center;
   background-size: cover;
 }
@@ -267,6 +271,20 @@ h3.text-justify.quote {
 .carousel-text-3 {
   padding-top: 1%;
   font-size: 20px;
+}
+
+.blog-border {
+  border: 3px solid #0c6536;
+  margin-top: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.blog-titles {
+  background-color: #70AF1A;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
 }
 
 /*GUARDIAN PAGE*/
