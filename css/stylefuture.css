@@ -88,12 +88,10 @@ body {
   margin-bottom: 30px;
 }
 
-.container.portfolio-shadow>.row>.col-sm-12>.row>.col-sm-4.col-sm-offset-2 {
+.container.portfolio-shadow>.row>.col-sm-12>.row>.col-sm-4 {
   height: 350px;
   width: 350px;
   margin: 20px;
-  margin-left: 16.66666667%;
-
 }
 
 #development {
@@ -120,7 +118,7 @@ body {
 }
 
 .nanny-title {
-  padding: 75px 20px 0px 0px;
+  padding: 75px 20px 0 0;
   color: #000;
 }
 
@@ -134,16 +132,30 @@ body {
 }
 
 #intern {
-  background-image: url('../img/film-room.jpg');
+  background-color: #0c6536;
+  color: #fff;
+  padding: 70px 20px;
+}
+
+#newspaper {
+  background-image: url('../img/guardian-1.jpg');
   background-position: center;
   background-size: cover;
-  padding: 75px 20px 85px 20px;
+  padding: 70px 20px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+#ucsd {
+  background-image: url('../img/ucsd-1.jpg');
+  background-position: center;
+  background-size: cover;
   color: #fff;
   text-shadow: 2px 2px #000;
 }
 
 .pad-tp {
-  padding-top: 60%;
+  padding-top: 70%;
 }
 
 /*WEB DEVELOPMENT PAGE*/
@@ -303,7 +315,9 @@ footer {
 }
 
 /*MEDIA QUERIES*/
-@media screen and (min-width: 768px) {
-  .col-sm-offset-2 {
-    margin-left: 16.66666667%;
-}
+
+/*@media screen and (min-width: 970px) {
+  .query-970 {
+    width: 95%;
+  }
+}*/
