@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Office Assistant</title>
+  <title>Web Development</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -23,15 +23,14 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <!-- <a class="navbar-brand" href="index.html" id="logo">Rebecca Horwitz</a> -->
+		      <a class="navbar-brand logo" href="index.html">Rebecca Horwitz</a>
 		    </div>
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav navbar-right">
-		        <li class="active"><a href="index.html">Home</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="#contact">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -39,79 +38,113 @@
 	</header>
   <!-- Header and Navbar End -->
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-7 col-sm-offset-1 center-block assistant-info">
+    <div class="row wrapper">
+      <div class="col-sm-7 col-sm-offset-1 center-block assistant-info firstDiv">
         <div class="row">
           <div class="col-sm-12 job-info-text">
-            <p>Web Development Paragraph</p>
-            <h4>Skills</h4>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS</li>
-              <li>Responsive Webpages</li>
-              <li>JavaScript</li>
-              <li>Python</li>
-              <li>Django</li>
+            <p>I started taking the Geekwise Academy courses that Bitwise Industries offers in April 2017. I didn't have high expectations, and was surprised to find that I really enjoyed coding. Instead of being confused by the HTML and CSS languages, I grasped the concepts and thrived on the challenge of creating webpages and figuring out how to apply the languages for different specific stylizations. I took JavaScript and was thrilled when it started to click. I learned about backend development when I took a 6-week No Instructor course, and have continued to work on developing those skills. I love using the different coding languages to create webpages and to create and learn more about web applications.</p>
+            <h4 class="gw-header-padding">Geekwise Academy Courses</h4>
+            <ul class="list-padding">
+              <li>Websites for Beginners</li>
+              <li>Mobile Friendly Websites</li>
+              <li>JavaScript for Beginners</li>
+              <li>No Instructor Class</li>
+              <li>Women Tech Training</li>
             </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1 skills-section">
+            <h4>Coding Language Skills</h4>
+            <p>HTML</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%;">
+              </div>
+            </div>
+            <p>CSS</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 70%;">
+              </div>
+            </div>
+            <p>JavaScript</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 50%;">
+              </div>
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-12">
-            <h4>Geekwise Academy Courses</h4>
-            <ul>
-              <li>Websites for Beginners</li>
-              <p></p>
-              <li>Mobile Friendly Websites</li>
-              <p></p>
-              <li>JavaScript for Beginners</li>
-              <p></p>
-              <li>No Instructor Class</li>
-              <p></p>
-              <li>Women Tech Training</li>
-              <p></p>
-            </ul>
+            <h3 class="text-center awesome-padding">Some Examples of My Work:</h3>
+            <div class="col-sm-6 awesome-padding">
+              <a href="https://geekwiseb2.github.io/petstore-2-bexinthesky/">
+                <img src="img/petstore.png" alt="petstore website" class="img-responsive">
+              </a>
+            </div>
+            <div class="col-sm-6 awesome-padding">
+              <a href="https://geekwiseb2.github.io/restaurante-june-17-bexinthesky/">
+                <img src="img/restaurante.png" alt="restaurante website" class="img-responsive">
+              </a>
+            </div>
+            <div class="col-sm-6 awesome-padding">
+              <a href="https://bexinthesky.github.io/womentechtraining/index.html">
+                <img src="img/wwt.png" alt="mock website" class="img-responsive">
+              </a>
+            </div>
+            <div class="col-sm-6 awesome-padding">
+              <a href="https://geekwisewtt.github.io/day-one-bexinthesky">
+                <img src="img/car.png" alt="mock website 2" class="img-responsive">
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-4 text-center pull-right" id="dev-col">
-        <h1 class="job-title">Web Development</h2>
+      <div class="col-sm-4 text-center secondDiv" id="dev-col">
+        <h1 class="webdev-title">Web<br>Development</h2>
         <h4>April 2017 – Present<br>
             Fresno, CA
         </h4>
-        <div class="row">
-          <div class="col-sm-4 col-sm-offset-4">
-            <a href=""></a>
-            <a href=""></a>
-          </div>
-          <div class="col-sm-4 col-sm-offset-4">
-            <a href=""></a>
-            <a href=""></a>
-          </div>
-          <div class="col-sm-4 col-sm-offset-4">
-            <a href=""></a>
-            <a href=""></a>
-          </div>
+        <!-- <h3 class="text-center work-header-padding">Some Examples of My Work:</h3>
+        <div class="col-sm-6 work-div">
+          <a href="https://geekwiseb2.github.io/petstore-2-bexinthesky/">
+            <img src="img/petstore.png" alt="petstore website" class="img-responsive">
+          </a>
         </div>
+        <div class="col-sm-6 work-div">
+          <a href="https://geekwiseb2.github.io/restaurante-june-17-bexinthesky/">
+            <img src="img/restaurante.png" alt="restaurante website" class="img-responsive">
+          </a>
+        </div>
+        <div class="col-sm-6 work-div">
+          <a href="https://bexinthesky.github.io/womentechtraining/index.html">
+            <img src="img/wwt.png" alt="mock website" class="img-responsive">
+          </a>
+        </div>
+        <div class="col-sm-6 work-div">
+          <a href="https://geekwisewtt.github.io/day-one-bexinthesky">
+            <img src="img/car.png" alt="mock website 2" class="img-responsive">
+          </a>
+        </div> -->
       </div>
     </div>
   </div>
   <footer class="container-fluid center-block">
-    <div class="col-sm-12">
+    <div class="row">
       <!-- Social Media Section Begins -->
-      <div class="col-sm-4">
+      <div class="col-sm-4 col-sm-offset-2">
         <a href="https://www.linkedin.com/in/rebecca-a-horwitz/" class="social-media">
-          <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
         </a>
         <a href="https://github.com/bexinthesky" class="social-media">
-          <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-github fa-3x" aria-hidden="true"></i>
         </a>
         <a href="https://twitter.com/moonprismariel" class="social-media">
-          <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
         </a>
       </div>
       <!-- Social Media Section Ends -->
       <div class="col-sm-4">
-        <a class="navbar-brand" href="index.html" id="logo">Rebecca Horwitz</a>
+        <a class="navbar-brand pull-right logo" href="index.html">Rebecca Horwitz</a>
       </div>
     </div>
   </footer>
