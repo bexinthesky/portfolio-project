@@ -20,6 +20,10 @@ body {
   color: #000;
 }
 
+.quote {
+  color: #666;
+}
+
 .white-text {
   color: #fff;
 }
@@ -182,10 +186,6 @@ h3.text-justify.quote {
   margin-top: 0px;
 }
 
-.quote {
-  color: #666;
-}
-
 .nanny-img {
   padding: 30px 0px 30px 70px;
 }
@@ -223,15 +223,15 @@ h3.text-justify.quote {
 }
 
 #ff-me {
-  padding: 500px 10px 10px 10px;
+  padding: 220px 10px 10px 10px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 
 #intern-quote {
-  color: #334d4d;
-  padding-top: 30px;
+  color: #1be479;
+  padding-top: 500px;
 }
 
 .item {
