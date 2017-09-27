@@ -113,15 +113,27 @@ body {
   padding-top: 20px;
 }
 
+div#development.col-sm-4.col-sm-offset-2.text-center>h2>a:focus, div#development.col-sm-4.col-sm-offset-2.text-center>h2>a:hover {
+  color: #fff;
+}
+
 #nanny {
   background-image: url('../img/kid-room.jpg');
   background-position: center;
   background-size: cover;
+  color: #000080;
+}
+
+.blue {
+  color: #000080;
 }
 
 .nanny-title {
   padding: 75px 20px 0px 0px;
-  color: #000;
+}
+
+div#nanny.col-sm-4.col-sm-offset-2.text-center>h2>a:focus, div#nanny.col-sm-4.col-sm-offset-2.text-center>h2>a:hover {
+  color: #8080ff;
 }
 
 #assistant {
@@ -133,17 +145,25 @@ body {
   text-shadow: 2px 2px #000;
 }
 
+div#assistant.col-sm-4.col-sm-offset-2.text-center>h2>a:focus, div#assistant.col-sm-4.col-sm-offset-2.text-center>h2>a:hover {
+  color: #b3cccc;
+}
+
 #intern {
   background-image: url('../img/film-room.jpg');
   background-position: center;
   background-size: cover;
-  padding: 75px 20px 85px 20px;
+  padding: 90px 20px 85px 20px;
   color: #fff;
   text-shadow: 2px 2px #000;
 }
 
 .pad-tp {
   padding-top: 60%;
+}
+
+div#intern.col-sm-4.col-sm-offset-2.text-center>h2>a:focus, div#intern.col-sm-4.col-sm-offset-2.text-center>h2>a:hover {
+  color: #18cd6d;
 }
 
 /*WEB DEVELOPMENT PAGE*/
