@@ -378,7 +378,28 @@ a.social-media:focus, a.social-media:hover {
 }
 
 /*MEDIA QUERIES*/
-/*@media screen and (min-width: 768px) {
-  .col-sm-offset-2 {
-    margin-left: 16.66666667%;
-}*/
+@media screen and (max-width: 768px) {
+  .nanny-info, .assistant-info, .col-absolute {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #dev-col, #nanny-col, #assistant-col, #intern-col {
+    box-shadow: none;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    display: table;
+  }
+  .firstDiv {
+    display: table-footer-group;
+  }
+  .secondDiv {
+    display: table-header-group;
+    margin-bottom: 20px;
+  }
+}
