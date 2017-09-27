@@ -1,5 +1,4 @@
 /*FONTS*/
-@import url('https://fonts.googleapis.com/css?family=Monofett|PT+Sans+Narrow');
 
 
 /*GLOBAL STYLES*/
@@ -48,37 +47,17 @@ body {
   color: #fff;
 }
 
-.nav>li>a {
-  font-size: 20px;
-  font-family: 'PT Sans Narrow', sans-serif;
-}
-
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: #fff;
   background-color: rgba(0, 0, 0, .45);
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #cc00ff;
+}
+
+#logo {
   color: #ff0066;
-}
-
-a.navbar-brand.logo:focus, a.navbar-brand.logo:hover {
-  color: #ff0066;
-}
-
-a.navbar-brand.logo {
-  color: #fff;
-}
-
-.logo {
-  color: #fff;
-  font-family: 'Monofett', cursive;
-  font-size: 2.5em;
-  font-weight: 500;
-}
-
-.normal-font {
-  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 /*INTRO STYLES*/
@@ -109,13 +88,10 @@ a.navbar-brand.logo {
   margin-bottom: 30px;
 }
 
-.container.portfolio-shadow>.row>.col-sm-12>.row>.col-sm-4.col-sm-offset-2 {
+.container.portfolio-shadow>.row>.col-sm-12>.row>.col-sm-4 {
   height: 350px;
   width: 350px;
   margin: 20px;
-  margin-left: 13%;
-  border: 6px solid #000;
-
 }
 
 #development {
@@ -135,27 +111,15 @@ a.navbar-brand.logo {
   padding-top: 20px;
 }
 
-div#development.col-sm-4.col-sm-offset-2.text-center>h2>a:focus, div#development.col-sm-4.col-sm-offset-2.text-center>h2>a:hover {
-  color: #fff;
-}
-
 #nanny {
   background-image: url('../img/kid-room.jpg');
   background-position: center;
   background-size: cover;
-  color: #000080;
-}
-
-.blue {
-  color: #000080;
 }
 
 .nanny-title {
-  padding: 75px 20px 0px 0px;
-}
-
-div#nanny.col-sm-4.col-sm-offset-2.text-center>h2>a:focus, div#nanny.col-sm-4.col-sm-offset-2.text-center>h2>a:hover {
-  color: #8080ff;
+  padding: 75px 20px 0 0;
+  color: #000;
 }
 
 #assistant {
@@ -167,25 +131,31 @@ div#nanny.col-sm-4.col-sm-offset-2.text-center>h2>a:focus, div#nanny.col-sm-4.co
   text-shadow: 2px 2px #000;
 }
 
-div#assistant.col-sm-4.col-sm-offset-2.text-center>h2>a:focus, div#assistant.col-sm-4.col-sm-offset-2.text-center>h2>a:hover {
-  color: #b3cccc;
+#intern {
+  background-color: #0c6536;
+  color: #fff;
+  padding: 70px 20px;
 }
 
-#intern {
-  background-image: url('../img/film-room.jpg');
+#newspaper {
+  background-image: url('../img/guardian-1.jpg');
   background-position: center;
   background-size: cover;
-  padding: 90px 20px 85px 20px;
+  padding: 70px 20px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+#ucsd {
+  background-image: url('../img/ucsd-1.jpg');
+  background-position: center;
+  background-size: cover;
   color: #fff;
   text-shadow: 2px 2px #000;
 }
 
 .pad-tp {
-  padding-top: 60%;
-}
-
-div#intern.col-sm-4.col-sm-offset-2.text-center>h2>a:focus, div#intern.col-sm-4.col-sm-offset-2.text-center>h2>a:hover {
-  color: #18cd6d;
+  padding-top: 70%;
 }
 
 /*WEB DEVELOPMENT PAGE*/
@@ -195,34 +165,6 @@ div#intern.col-sm-4.col-sm-offset-2.text-center>h2>a:focus, div#intern.col-sm-4.
   position: absolute;
   z-index: -1;
   right: 0px;
-}
-
-.webdev-title {
-  padding: 10% 2px 15% 2px;
-  font-size: 4.5em;
-}
-
-.work-header-padding {
-  padding-top: 40px;
-}
-
-.gw-header-padding {
-  padding-left: 35%;
-  padding-top: 20px;
-}
-
-.list-padding {
-  padding-left: 40%;
-}
-
-.skills-section {
-  border: 4px solid #fbe86a;
-  padding-top: 20px;
-  margin-top: 20px;
-}
-
-.progress-bar {
-  background-color: #663300;
 }
 
 /*NANNY PAGE*/
@@ -345,9 +287,11 @@ h3.text-justify.quote {
   padding: 15px;
 }
 
-div.col-sm-4>h5>a.blog-titles:focus, div.col-sm-4>h5>a.blog-titles:hover {
-  color: #0c6536;
-}
+/*GUARDIAN PAGE*/
+
+/*UCSD PAGE*/
+
+/*ABOUT ME*/
 
 /*CONTACT STYLES*/
 .asterisk:after {
@@ -366,40 +310,14 @@ footer {
   padding: 10px;
 }
 
-a.social-media:focus, a.social-media:hover {
-  color: #ff0066;
-}
-
 .social-media {
-  color: #fff;
-  padding: 20px;
-  text-decoration: none;
 
 }
 
 /*MEDIA QUERIES*/
-@media screen and (max-width: 768px) {
-  .nanny-info, .assistant-info, .col-absolute {
-    position: relative;
-  }
-}
 
-@media screen and (max-width: 768px) {
-  #dev-col, #nanny-col, #assistant-col, #intern-col {
-    box-shadow: none;
-    position: relative;
+/*@media screen and (min-width: 970px) {
+  .query-970 {
+    width: 95%;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .wrapper {
-    display: table;
-  }
-  .firstDiv {
-    display: table-footer-group;
-  }
-  .secondDiv {
-    display: table-header-group;
-    margin-bottom: 20px;
-  }
-}
+}*/
