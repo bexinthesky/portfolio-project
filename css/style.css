@@ -295,6 +295,10 @@ h3.text-justify.quote {
   padding: 15px;
 }
 
+div.col-sm-4>h5>a.blog-titles:focus, div.col-sm-4>h5>a.blog-titles:hover {
+  color: #0c6536;
+}
+
 /*GUARDIAN PAGE*/
 
 /*UCSD PAGE*/
